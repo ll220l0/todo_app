@@ -19,7 +19,14 @@ DB_PASS=your_postgres_user_password
 DB_NAME=your_postgres_database_name
 ```
 
-You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
+You will need django to be installed in you computer to run this app. 
+
+```bash
+python3 -m venv env
+source env/bin/activate
+
+pip3 install -r requirements.txt
+```
 
 Once you have downloaded django, go to the cloned repo directory and run the following command
 
