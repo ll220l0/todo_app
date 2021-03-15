@@ -17,6 +17,8 @@ ALLOWED_HOSTS=allowed_hosts
 DB_USER=your_postgres_user
 DB_PASS=your_postgres_user_password
 DB_NAME=your_postgres_database_name
+DB_HOST=db_host
+DB_PORT=db_port
 ```
 
 You will need django to be installed in you computer to run this app. 
